@@ -22,3 +22,4 @@ prediksi_button.grid(row=11, column=0, columnspan=2, pady=10)
 hasil_label = tk.Label(root, text="", font=("Helvetica", 12, "bold"))
 hasil_label.grid(row=12, column=0, columnspan=2, pady=10)
 
+root.mainloop()
