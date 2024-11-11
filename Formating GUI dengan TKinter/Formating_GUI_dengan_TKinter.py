@@ -15,3 +15,6 @@ for i in range(10):
     entry = tk.Entry(root)
     entry.grid(row=i+1, column=1, padx=5, pady=5)
     entry_list.append(entry)
+
+prediksi_button = tk.Button(root, text="Hasil Prediksi", command=hasil_prediksi)
+prediksi_button.grid(row=11, column=0, columnspan=2, pady=10)
